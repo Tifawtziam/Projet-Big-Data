@@ -4,12 +4,20 @@
 
 ```
 ├── notebooks/          ← Notebooks Azure Synapse / Apache Spark
-├── data/               ← Schémas Delta Lake
 ├── powerbi/
 │   ├── dashboard.pbix  ← Fichier Power BI Desktop
 │   └── screenshots/    ← Captures PNG des dashboards
 └── README.md
 ```
+
+## ⚠️ Note sur les données
+
+Les données sont stockées sur Azure Data Lake Storage Gen2.
+Les crédits Azure étudiants ont expiré — le Data Lake n'est plus accessible.
+
+Les fichiers de données sont disponibles ici :
+👉 [Kaggle - Smart Meters in London](https://www.kaggle.com/datasets/jeanmidev/smart-meters-in-london)
+
 
 ## 🛠️ Stack technique
 
